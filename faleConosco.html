@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bluemy: Fale Conosco</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header id="cabecalho">
+        <a class="logo" href="paginaInicial.html">
+            <img src="images/Bluemy.png" alt="logo da Bluemy">
+        </a>
+        <a href="paginaInicial.html" class="links">Página Inicial</a>
+        <a href="tecnologia.html" class="links">Tecnologia Bluemy</a>
+        <a href="aquicultura.html" class="links">O que é aquicultura?</a>
+        <a href="impactos.html" class="links">Impactos</a>
+        <a href="economiaAzul.html" class="links">Economia Azul</a>
+        <a href="qsn.html" class="links">Quem Somos Nós?</a>
+        <a href="faleConosco.html" class="links">Fale conosco!</a>
+    
+        <button id="hamburguer" onclick="exibirMenu()">
+            <span class="linha-hamburguer"></span>
+            <span class="linha-hamburguer"></span>
+            <span class="linha-hamburguer"></span>
+        </button>
+    </header>
+    
+    <nav id="menu">        
+        <a href="paginaInicial.html" class="mobile">Página Inicial</a>
+        <a href="tecnologia.html" class="mobile">Tecnologia Bluemy</a>
+        <a href="aquicultura.html" class="mobile">O que é aquicultura?</a>
+        <a href="impactos.html" class="mobile">Impactos</a>
+        <a href="economiaAzul.html" class="mobile">Economia Azul</a>
+        <a href="qsn.html" class="mobile">Quem Somos Nós?</a>
+        <a href="faleConosco.html" class="mobile">Fale conosco!</a>
+    </nav>
+    
+    <main class="main-formatacao">
+            <div class="container">
+                <h1 class="texto">Fale Conosco</h1>
+                <div class="container-fc">
+                <form action="" method="" id="formulario">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+                    <button type="submit" id="btn">Enviar</button>
+                </form>
+                <p id="exibir"></p>
+                </div>
+            </div>
+            </main>
+    <footer>
+        <a href="integrantes.html" class="rodape">Conheça nossos criadores!</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
